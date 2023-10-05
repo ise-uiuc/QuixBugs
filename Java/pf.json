@@ -1,0 +1,162 @@
+{
+  "bitcount": {
+    "prefix": "package java_programs;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class BITCOUNT {",
+    "postfix": "}"
+  },
+  "breadth_first_search": {
+    "prefix": "package java_programs;\nimport java.util.*;\nimport java.util.ArrayDeque;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class BREADTH_FIRST_SEARCH {\n\n    public static Set<Node> nodesvisited = new HashSet<>();\n",
+    "postfix": "}"
+  },
+  "bucketsort" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class BUCKETSORT {",
+    "postfix": "}"
+  },
+  "depth_first_search" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class DEPTH_FIRST_SEARCH {",
+    "postfix": "}"
+  },
+  "detect_cycle" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class DETECT_CYCLE {",
+    "postfix": "}"
+  },
+  "find_first_in_sorted" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class FIND_FIRST_IN_SORTED {",
+    "postfix": "}"
+  },
+  "find_in_sorted" : {
+    "prefix": "package java_programs;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class FIND_IN_SORTED {",
+    "postfix": "public static int find_in_sorted(int[] arr, int x) {\n    return binsearch(arr, x, 0, arr.length);\n}\n}"
+  },
+  "flatten" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class FLATTEN {",
+    "postfix": "}"
+  },
+  "gcd" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class GCD {",
+    "postfix": "}"
+  },
+  "get_factors" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class GET_FACTORS {",
+    "postfix": "}"
+  },
+  "hanoi" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class HANOI {",
+    "postfix": "\n\n    public static class Pair<F, S> {\n        private F first; //first member of pair\n        private S second; //second member of pair\n\n        public Pair(F first, S second) {\n            this.first = first;\n            this.second = second;\n        }\n\n        public void setFirst(F first) {\n            this.first = first;\n        }\n\n        public void setSecond(S second) {\n            this.second = second;\n        }\n\n        public F getFirst() {\n            return first;\n        }\n\n        public S getSecond() {\n            return second;\n        }\n\n        @Override\n        public String toString() {\n            return \"(\" + String.valueOf(first) + \", \" + String.valueOf(second) + \")\";\n        }\n    } \n}"
+  },
+  "is_valid_parenthesization" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class IS_VALID_PARENTHESIZATION {",
+    "postfix": "}"
+  },
+  "kheapsort" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class KHEAPSORT {\n    // import heapq\n    // heap is data structure used for priority queue\n    // pq O(log n) to pull off lowest priority item\n    // heap is a type of binary tree\n    // every node its value smaller than everything below it\n    // priority queue in java is least-value first (at head)\n",
+    "postfix": "}"
+  },
+  "knapsack" : {
+    "prefix": "package java_programs;\nimport java.util.*;\nimport java.lang.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class KNAPSACK {",
+    "postfix": "}"
+  },
+  "kth" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n\n */\npublic class KTH {",
+    "postfix": "}"
+  },
+  "lcs_length" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class LCS_LENGTH {",
+    "postfix": "}"
+  },
+  "levenshtein" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class LEVENSHTEIN {",
+    "postfix": "}"
+  },
+  "lis" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class LIS {",
+    "postfix": "}"
+  },
+  "longest_common_subsequence" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class LONGEST_COMMON_SUBSEQUENCE {",
+    "postfix": "}"
+  },
+  "max_sublist_sum" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class MAX_SUBLIST_SUM {",
+    "postfix": "}"
+  },
+  "mergesort" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class MERGESORT { public static ArrayList<Integer> merge(ArrayList<Integer> left, ArrayList<Integer> right) {\n//System.out.println(String.valueOf(left));\n//System.out.println(String.valueOf(right));\n//System.out.println(String.valueOf(left.getClass()));\n//System.out.println(String.valueOf(left.get(0)));\n//System.out.println(String.valueOf(left.get(0).getClass()));\n    ArrayList<Integer> result = new ArrayList<Integer>(100);\n    int i = 0;\n    int j = 0;\n\n    while (i < left.size() && j < right.size()) {\n        if (left.get(i) <= right.get(j)) {\n            result.add(left.get(i));\n            i++;\n        } else {\n            result.add(right.get(j));\n            j++;\n        }\n    }\n    result.addAll(left.subList(i,left.size()).isEmpty() ? right.subList(j, right.size()) : left.subList(i, left.size()));\n    return result;\n} \n",
+    "postfix": "}"
+  },
+  "minimum_spanning_tree" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/**\n * Minimum spanning tree\n */\npublic class MINIMUM_SPANNING_TREE {",
+    "postfix": "public static Map<Node,Set<Node>> update(Map<Node,Set<Node>> groupByNode, Node vertex_u, Node vertex_v) {\n        Set<Node> vertex_u_span = new HashSet<>(groupByNode.get(vertex_u));\n        vertex_u_span.addAll(groupByNode.get(vertex_v));\n        groupByNode.put(vertex_u, vertex_u_span);\n\n        return groupByNode;\n    }\n}"
+  },
+  "next_palindrome" : {
+    "prefix": "package java_programs;\nimport java.util.*;\nimport java.lang.Math.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class NEXT_PALINDROME {",
+    "postfix": "}"
+  },
+  "next_permutation" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n//import com.google.guava.Lists;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class NEXT_PERMUTATION {",
+    "postfix": "}"
+  },
+  "pascal" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class PASCAL {",
+    "postfix": "}"
+  },
+  "possible_change" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class POSSIBLE_CHANGE {",
+    "postfix": "}"
+  },
+  "powerset" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class POWERSET {",
+    "postfix": "}"
+  },
+  "quicksort" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class QUICKSORT {",
+    "postfix": "}"
+  },
+  "reverse_linked_list" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class REVERSE_LINKED_LIST {",
+    "postfix": "}"
+  },
+  "rpn_eval" : {
+    "prefix": "package java_programs;\nimport java.util.*;\nimport java.util.function.BinaryOperator;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class RPN_EVAL {",
+    "postfix": "}"
+  },
+  "shortest_path_length" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/**\n *\n * @author Angela Chen\n */\n\npublic class SHORTEST_PATH_LENGTH {",
+    "postfix": "\n    public static Node getNodeWithMinDistance(Map<Node,Integer> list) {\n        Node minNode = null;\n        int minDistance = Integer.MAX_VALUE;\n        for (Node node : list.keySet()) {\n            int distance = list.get(node);\n            if (distance < minDistance) {\n                minDistance = distance;\n                minNode = node;\n            }\n        }\n        return minNode;\n    }\n}"
+  },
+  "shortest_path_lengths" : {
+    "prefix": "package java_programs;\nimport java.util.*;\nimport java.lang.Math.*;\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author Angela Chen\n */\npublic class SHORTEST_PATH_LENGTHS {\n    // Define Infinite as a large enough value. This value will be used\n    // for vertices not connected to each other\n    final static int INF = 99999;",
+    "postfix": "}"
+  },
+  "shortest_paths" : {
+    "prefix": "package java_programs;\nimport java.util.*;\nimport java.lang.Math.*;\n\n/**\n *\n * @author Angela Chen\n */\npublic class SHORTEST_PATHS {\n\n    // Define Infinite as a large enough value. This value will be used\n    // for vertices not connected to each other\n    final static int INF = 99999;",
+    "postfix": "public static Map<String, Integer> shortest_paths(Node source, List<WeightedEdge> weight_by_edge) {\n        Map<String,Integer> weight_by_node = new HashMap<String,Integer>();\n        for (WeightedEdge edge : weight_by_edge) {\n                weight_by_node.put(edge.node1.toString(), INF);\n                weight_by_node.put(edge.node2.toString(), INF);\n        }\n\n        weight_by_node.put(source.getValue(), 0);\n        for (int i = 0; i < weight_by_node.size(); i++) {\n            for (WeightedEdge edge : weight_by_edge) {\n                int update_weight = Math.min(\n                        weight_by_node.get(edge.node1.toString())\n                                + edge.weight,\n                        weight_by_node.get(edge.node2.toString()));\n                edge.weight = update_weight;\n            }\n        }\n        return weight_by_node;\n    } \n}"
+  },
+  "shunting_yard" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class SHUNTING_YARD {",
+    "postfix": "}"
+  },
+  "sieve" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class SIEVE { \n public static boolean all(ArrayList<Boolean> arr) {\n    for (boolean value : arr) {\n    if (!value) { return false; }\n}\nreturn true;\n}\n\npublic static boolean any(ArrayList<Boolean> arr) {\n    for (boolean value: arr) {\n    if (value) { return true; }\n}\nreturn false;\n}\n\npublic static ArrayList<Boolean> list_comp(int n, ArrayList<Integer> primes) {\n    ArrayList<Boolean> built_comprehension = new ArrayList<Boolean>();\nfor (Integer p : primes) {\n    built_comprehension.add(n % p > 0);\n}\nreturn built_comprehension;\n}\n\n",
+    "postfix": "}"
+  },
+  "sqrt" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class SQRT {",
+    "postfix": "}"
+  },
+  "subsequences" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class SUBSEQUENCES {",
+    "postfix": "}"
+  },
+  "to_base" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class TO_BASE {",
+    "postfix": "}"
+  },
+  "topological_ordering" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\npublic class TOPOLOGICAL_ORDERING {",
+    "postfix": "}"
+  },
+  "wrap" : {
+    "prefix": "package java_programs;\nimport java.util.*;\n\n/*\n * To change this template, choose Tools | Templates\n * and open the template in the editor.\n */\n\n/**\n *\n * @author derricklin\n */\npublic class WRAP {\n    public static void main(String[] args) {\n        System.out.println(\"abc\".lastIndexOf(\"c\",30));\n    }",
+    "postfix": "}"
+  }
+}

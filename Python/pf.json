@@ -1,0 +1,30 @@
+{
+  "breadth_first_search" : {
+    "prefix": "from collections import deque as Queue\n",
+    "postfix": ""
+  },
+  "shortest_path_length": {
+    "prefix": "from heapq import *\n",
+    "postfix": "\ndef get(node_heap, wanted_node):\n    for dist, node in node_heap:\n        if node == wanted_node:\n            return dist\n    return 0\n\ndef insert_or_update(node_heap, dist_node):\n    dist, node = dist_node\n    for i, tpl in enumerate(node_heap):\n        a, b = tpl\n        if b == node:\n            node_heap[i] = dist_node #heapq retains sorted property\n            return None\n\n    heappush(node_heap, dist_node)\n    return None"
+  },
+  "shortest_path_lengths" : {
+    "prefix": "from collections import defaultdict\n",
+    "postfix": ""
+  },
+  "to_base" : {
+    "prefix": "import string\n",
+    "postfix": ""
+  },
+  "kheapsort" : {
+    "prefix": "import heapq\n",
+    "postfix": ""
+  },
+  "knapsack" : {
+    "prefix": "from collections import defaultdict\n",
+    "postfix": ""
+  },
+  "lcs_length": {
+    "prefix": "from collections import Counter\n",
+    "postfix": ""
+  }
+}
